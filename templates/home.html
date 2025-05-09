@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div id="home-content" class="text-center">
+                <h1>DASHBOARD</h1>
+                <hr> </hr>
+                <div style="text-align: left;">
+                <h2>Welcome aboard {{ user.username }}</h2>
+                </div>
+                <div style="text-align: left;">
+                    <p id="current-time">{{ today }}</p>
+                </div>
+                <hr>
+                </hr>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function updateTime() {
+        const now = new Date();
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' };
+        document.getElementById('current-time').textContent = now.toLocaleString('en-US', options);
+    }
+    setInterval(updateTime, 1000);
+    updateTime();
+</script>
+{% endblock %}

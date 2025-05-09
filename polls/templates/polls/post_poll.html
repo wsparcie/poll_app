@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-sm-2 mt-5">
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="{{ message.tags }}" role="alert">
+                        {{ message }}
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                {% endfor %}
+            {% endif %}
+            <div class="card">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Thank you for voting!</h4>
+                    <p class="card-text">Your vote has been recorded successfully.</p>
+                    <div class="mt-4">
+                        <a href="{% url 'polls:list' %}" class="btn btn-primary">Back to Polls</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
