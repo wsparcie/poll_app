@@ -1,4 +1,12 @@
-**/__pycache/
+dist/
+build/
+*.log
+*.tmp
+
+/.vscode/
+/.venv/
+
+**/__pycache__/
 **/migrations/
 
 db.sqlite3
