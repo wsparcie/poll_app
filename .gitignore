@@ -6,6 +6,7 @@ build/
 /.vscode/
 /.venv/
 
-**/__pycache/
+**/__pycache__/
 **/migrations/
+
 db.sqlite3
