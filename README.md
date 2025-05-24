@@ -4,6 +4,7 @@
 [![Django](https://img.shields.io/badge/Django-5.0-success.svg)](https://www.djangoproject.com)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-4.0-purple.svg)](https://getbootstrap.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status](https://img.shields.io/badge/Status-Alpha-yellow.svg)]()
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-May%202025-brightgreen.svg)](https://github.com/yourusername/poll_app)
 
 A simple Django-based polling application that enables secure creation and management of polls with token-based voting system. Features real-time results tracking, responsive UI, and robust authentication.
