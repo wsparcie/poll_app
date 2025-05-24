@@ -1,10 +1,7 @@
 # Django Poll App
 
 [![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
-[![Django]## Usage Guide
-
-
-## Licenseelds.io/badge/Django-5.0-green.svg)](https://www.djangoproject.com/)
+[![Django](https://img.shields.io/badge/Django-5.0-success.svg)](https://www.djangoproject.com)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-4.0-purple.svg)](https://getbootstrap.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-May%202025-brightgreen.svg)](https://github.com/yourusername/poll_app)
@@ -20,6 +17,14 @@ A simple Django-based polling application that enables secure creation and manag
   - Set poll activation/deactivation
   - Real-time vote tracking
   - Results visualization
+
+### Data Management
+- **Admin Interface**:
+  - Comprehensive poll management
+  - User management
+  - Token management
+  - Vote tracking
+  - Statistics and reporting
 
 ### Security Features
 - **Authentication System**:
@@ -41,20 +46,13 @@ A simple Django-based polling application that enables secure creation and manag
   - Interactive elements
   - AJAX-powered updates
 
-### Data Management
-- **Admin Interface**:
-  - Comprehensive poll management
-  - User management
-  - Token management
-  - Vote tracking
-  - Statistics and reporting
-
 ## Prerequisites
 
 - Python 3.13+
 - Django 5.0+
 - Web browser (Chrome, Firefox, Safari)
 - Required Python packages:
+
   ```
   django
   python-decouple
@@ -95,4 +93,4 @@ A simple Django-based polling application that enables secure creation and manag
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License - feel free to use and modify as needed.
