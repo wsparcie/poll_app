@@ -1,4 +1,11 @@
+dist/
+build/
+*.log
+*.tmp
+
+/.vscode/
+/.venv/
+
 **/__pycache/
 **/migrations/
-
 db.sqlite3
